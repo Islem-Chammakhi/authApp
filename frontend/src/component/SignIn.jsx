@@ -28,7 +28,7 @@ const SignIn = () => {
     try {
       setIsLoading(true)
       setError(null)
-      const response = await axios.post("http://localhost:5000/api/users/signin", formData);
+      const response = await axios.post("https://auth-app-backend-axab.onrender.com/api/users/signin", formData);
       setSuccess("User registered successfully!");
       setError("");
       // save the user to local storage

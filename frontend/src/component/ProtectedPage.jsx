@@ -12,7 +12,7 @@ const MainMenu = () => {
 useEffect(() => {
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/users/clientlist", {
+      const response = await axios.get("https://auth-app-backend-axab.onrender.com/api/users/clientlist", {
         headers: {
           Authorization: 'Bearer '+user.user,
         },
