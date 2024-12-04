@@ -28,7 +28,8 @@ const SignIn = () => {
     try {
       setIsLoading(true)
       setError(null)
-      const response = await axios.post(import.meta.env.VITE_BACKEND_BASE_URL+"/api/users/signin", formData);
+      console.log(import.meta.env.VITE_BACKEND_BASE_URL);
+      const response = await axios.post("https://auth-app-pi-eight.vercel.app/api/users/signin", formData);
       setSuccess("User registered successfully!");
       setError("");
       // save the user to local storage

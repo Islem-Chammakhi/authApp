@@ -12,7 +12,7 @@ const MainMenu = () => {
 useEffect(() => {
   const fetchUsers = async () => {
     try {
-      const response = await axios.get(import.meta.env.VITE_BACKEND_BASE_URL+"/api/users/clientlist", {
+      const response = await axios.get("https://auth-app-pi-eight.vercel.app/api/users/clientlist", {
         headers: {
           Authorization: 'Bearer '+user.user,
         },
