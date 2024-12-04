@@ -27,7 +27,7 @@ const SignUp = () => {
     try {
       setIsLoading(true)
       setError(null)
-      const response = await axios.post("https://auth-app-backend-axab.onrender.com/api/users/signup", formData);
+      const response = await axios.post(import.meta.env.BACKEND_BASE_URL+"/api/users/signup", formData);
       setSuccess("User registered successfully!");
       setError("");
       // save the user to local storage
