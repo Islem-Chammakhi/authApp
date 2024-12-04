@@ -42,6 +42,7 @@ const SignIn = () => {
       }
     } catch (err) {
       setIsLoading(false)
+      console.log(err.message)
       setError(err.response ? err.response.data.message : "Server error");
     }
   };
