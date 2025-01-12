@@ -39,15 +39,9 @@ Cette application permet de gérer l'authentification des utilisateurs en utilis
    ```bash
    cd backend
    npm install
-   
-   .Configurez votre base de données MongoDB en modifiant le fichier .env pour y inclure votre URI MongoDB.
-   .Lancez le serveur backend :
-   ```bash
    npm start
 3. **Frontend - React**
    ```bash
    cd frontend
    npm install
-   .Lancez le serveur frontend  :
-   ```bash
    npm start
