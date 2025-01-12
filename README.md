@@ -32,7 +32,7 @@ Cette application permet de gérer l'authentification des utilisateurs en utilis
 
 1. **Clonez le projet**
    ```bash
-   git clone https://github.com/IslemChammakhi/authentication-jwt-react-mongo.git
+   git clone https://github.com/Islem-Chammakhi/authApp.git
    cd authentication-jwt-react-mongo
    
 2. **Backend - Node.js & Express**
